@@ -112,6 +112,27 @@ nav ul img{
     color: hsl(231, 7%, 65%);
     letter-spacing: 3px;
 }
+.mobile-nav{
+    transition: all .5s ease-in;
+    z-index: 3;
+    position: absolute;
+    right: 400px;
+    top: 80px;
+    background: white;
+    width: 250px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: -1px 1px 4px 1px grey;
+    border-radius: 3px;
+}
+.mobile-nav li{
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: 'barlow condensed', sans-serif;
+    text-transform: uppercase;
+}
 @media(max-width: 375px){
     #main-header {
         margin: 30px;
@@ -133,7 +154,7 @@ nav ul img{
     }
     #content img{
         width: 380px;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
         height: fit-content;
     }
     #content h1{
@@ -151,4 +172,5 @@ nav ul img{
         letter-spacing: 1px;
         margin: 10px 0px;
     }
+    
 }
