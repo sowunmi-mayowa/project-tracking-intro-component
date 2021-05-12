@@ -7,7 +7,7 @@ function toggleNav(){
     menu.src = "./images/icon-close.svg"
 
     if(mobileNav.style.right == "400px"){
-        mobileNav.style.right = "30px"
+        mobileNav.style.right = "60px"
     }
     else{
         mobileNav.style.right = "400px"
